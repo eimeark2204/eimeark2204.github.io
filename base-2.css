@@ -1,7 +1,23 @@
 /* ==== BROWSER RESETS  ==== */
 * { padding: 0; margin: 0; border: 0; font-weight: normal; font-size: 16px }
 
-body, html { height: 100% }
+/* ==== PAGE WIDTH ==== */
+
+/* Mobiles */
+@media all and (max-width:767px) {
+    body {
+       padding-left: 5%;
+       padding-right: 5%
+    }
+}
+
+/* Desktop */
+@media all and (min-width:768px) {
+    body {
+       padding-left: 20%;
+       padding-right: 20%
+    }
+}
 
 /* ==== HEADINGS ==== */
 
@@ -31,95 +47,76 @@ h1 {
    }
 }
 
-
 h2 {
-   font-family: serif;
-   font-weight: bold;
-   font-size: 32px;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 32px;
 }
-
-
+ 
+ 
 /* Mobiles */
 @media all and (max-width:767px) {
-   h2 {
-      line-height: 1.3;
-      margin-top: 12%;
-      margin-bottom: 3%;
-   }
+    h2 {
+       line-height: 1.3;
+       margin-top: 12%;
+       margin-bottom: 3%;
+    }
 }
-
+ 
 /* Desktop */
 @media all and (min-width:768px) {
-   h2 {
-      line-height: 1.3;
-      margin-top: 12%;
-      margin-bottom: 2%;
-   }
+    h2 {
+       line-height: 1.3;
+       margin-top: 12%;
+       margin-bottom: 2%;
+    }
 }
-
-
+ 
 h3 {
-   font-family: serif;
-   font-weight: bold;
-   font-size: 28px;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 28px;
 }
-
-
+ 
 /* Mobiles */
 @media all and (max-width:767px) {
-   h3 {
-      line-height: 1.3;
-      margin-top: 6%;
-      margin-bottom: 1%;
-   }
+    h3 {
+       line-height: 1.3;
+       margin-top: 6%;
+       margin-bottom: 1%;
+    }
 }
-
+ 
 /* Desktop */
 @media all and (min-width:768px) {
-   h3 {
-      line-height: 1.3;
-      margin-top: 5%;
-      margin-bottom: 1%;
-   }
+    h3 {
+       line-height: 1.3;
+       margin-top: 5%;
+       margin-bottom: 1%;
+    }
 }
- /* ==== PARAGRAPHS ==== */
 
- p {
+
+/* ==== PARAGRAPHS ==== */
+p {
     font-family: sans-serif;
     font-weight: normal;
     font-size: 16px;
- }
+}
  
  
- /* Mobiles */
- @media all and (max-width:767px) {
+/* Mobiles */
+@media all and (max-width:767px) {
     p {
        line-height: 1.5;
        margin-bottom: 5%;
     }
- }
+}
  
- /* Desktop */
- @media all and (min-width:768px) {
+/* Desktop */
+@media all and (min-width:768px) {
     p {
        line-height: 1.6;
        margin-bottom: 2%;
-    }
- }
- /* ==== PAGE WIDTH  ==== */
-
-/* Mobiles */
-@media all and (max-width:767px) {
-    body {
-       padding-left: 5%;
-       padding-right: 5%
-    }
-}
-
-/* Desktop */
-@media all and (min-width:768px) {
-    body {
-       padding-left: 20%;
-       padding-right: 20%
     }
 }
