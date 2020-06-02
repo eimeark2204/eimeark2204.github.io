@@ -177,7 +177,7 @@ html{ scroll-behavior: smooth;scroll-padding-top: 72px}
     right: -320px; /* hides flyout menu */
 }
 
-.flyout-menu {
+.flyout-menu.flyout-menu-is-open {
     right: 0; /* displays flyout menu */
     overscroll-behavior: contain;
     overscroll-behavior-y: contain
