@@ -254,16 +254,9 @@
 
 		function swapMenuStyle() {
 			if (window.pageYOffset > stickyDesktop) {
-				headerDesktop.classList.add("menu-light","menu-drop-shadow");
-				headerDesktop.classList.remove("menu-transparent");
-				headerMobile.classList.add("menu-light","menu-drop-shadow");
-				headerMobile.classList.remove("menu-transparent");
-
+				headerDesktop.classList.add("menu-drop-shadow");
 			} else {
-				headerDesktop.classList.add("menu-transparent");
-				headerDesktop.classList.remove("menu-light","menu-drop-shadow");
-				headerMobile.classList.add("menu-transparent");
-				headerMobile.classList.remove("menu-light","menu-drop-shadow");
+				headerDesktop.classList.remove("menu-drop-shadow");
 			}
 		}
 
